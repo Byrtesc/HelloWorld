@@ -47,3 +47,7 @@ if __name__ == "__main__":
 
     assert -2 not in checkin_codes, "At least one account login fails."
     assert checkin_codes.count(0) + checkin_codes.count(1) == len(checkin_codes), "Not all the accounts check in successful."
+
+    
+    
+    
